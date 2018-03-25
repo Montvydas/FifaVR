@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 04b3b8da56f8f47df944b3ff350f4460
+timeCreated: 1521996338
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Cube
+    100004: Foot.L
+    100006: Foot.R
+    100008: Hair
+    100010: Hair_end
+    100012: Head
+    100014: Leg Control.L
+    100016: Leg Control.R
+    100018: Leg ik.L
+    100020: Leg ik.L_end
+    100022: Leg ik.R
+    100024: Leg ik.R_end
+    100026: Leg pole target.L
+    100028: Leg pole target.L_end
+    100030: Leg pole target.R
+    100032: Leg pole target.R_end
+    100034: Lower Arm.L
+    100036: Lower Arm.R
+    100038: Lower Leg.L
+    100040: Lower Leg.L_end
+    100042: Lower Leg.R
+    100044: Lower Leg.R_end
+    100046: Neck
+    100048: Palm.L
+    100050: Palm.L_end
+    100052: Palm.R
+    100054: Palm.R_end
+    100056: //RootNode
+    100058: Robot Armature
+    100060: Root
+    100062: Toes.L
+    100064: Toes.L_end
+    100066: Toes.R
+    100068: Toes.R_end
+    100070: Torso
+    100072: Upper Arm.L
+    100074: Upper Arm.R
+    100076: Upper Leg.L
+    100078: Upper Leg.R
+    400000: Chest
+    400002: Cube
+    400004: Foot.L
+    400006: Foot.R
+    400008: Hair
+    400010: Hair_end
+    400012: Head
+    400014: Leg Control.L
+    400016: Leg Control.R
+    400018: Leg ik.L
+    400020: Leg ik.L_end
+    400022: Leg ik.R
+    400024: Leg ik.R_end
+    400026: Leg pole target.L
+    400028: Leg pole target.L_end
+    400030: Leg pole target.R
+    400032: Leg pole target.R_end
+    400034: Lower Arm.L
+    400036: Lower Arm.R
+    400038: Lower Leg.L
+    400040: Lower Leg.L_end
+    400042: Lower Leg.R
+    400044: Lower Leg.R_end
+    400046: Neck
+    400048: Palm.L
+    400050: Palm.L_end
+    400052: Palm.R
+    400054: Palm.R_end
+    400056: //RootNode
+    400058: Robot Armature
+    400060: Root
+    400062: Toes.L
+    400064: Toes.L_end
+    400066: Toes.R
+    400068: Toes.R_end
+    400070: Torso
+    400072: Upper Arm.L
+    400074: Upper Arm.R
+    400076: Upper Leg.L
+    400078: Upper Leg.R
+    2100000: Material.001
+    4300000: Cube
+    7400000: Robot Armature|Action Walk Done
+    7400002: Robot Armature|Stand
+    7400004: Robot Armature|Stand_1
+    7400006: Robot Armature|Walk_Blocking
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Robot Armature|Action Walk Done
+      takeName: Robot Armature|Action Walk Done
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot Armature|Stand
+      takeName: Robot Armature|Stand
+      firstFrame: 0
+      lastFrame: 126
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot Armature|Stand_1
+      takeName: Robot Armature|Stand_1
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot Armature|Walk_Blocking
+      takeName: Robot Armature|Walk_Blocking
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
