@@ -23,8 +23,11 @@ public class BallController : MonoBehaviour {
 	{
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
-		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+		
+		Vector3 val = Input.acceleration;
+		Vector3 movement = new Vector3 (Input.acceleration.x, 0, -Input.acceleration.z);
+//		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
-//		ball.AddForce (movement * speed);
+		ball.AddForce (movement * speed);
 	}
 }

@@ -7,11 +7,15 @@ public class RobotController : MonoBehaviour
 //    private Rigidbody robot;
     public Animator animator;
 
+    private int walkHash = Animator.StringToHash("Walk");
+    private int idleHash = Animator.StringToHash("Stand");
+    
     // Use this for initialization
     void Start () 
     {
 //        robot = GetComponent<Rigidbody> ();
         animator = GetComponent<Animator>();
+        
     }
 	
     // Update is called once per frame
@@ -30,11 +34,11 @@ public class RobotController : MonoBehaviour
         if (Math.Abs(moveVertical) > 0 || Math.Abs(moveHorizontal) > 0.0)
         {
 //            animator.Play("Robot Armature|Action Walk Done", -1, 0f);
-            animator.CrossFade("Walk", 0.0f, -1);
+            animator.CrossFade(walkHash, 0.0f, -1);
         }
         else
         {
-            animator.CrossFade("Stand", 0.0f, -1);
+            animator.CrossFade(idleHash, 0.0f, -1);
         }
         
         transform.position = transform.position + movement * speed;
