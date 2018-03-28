@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b742384-19e8-415e-af5b-e128f12f766e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FifaVR/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FifaVR/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/RobotController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/RobotController.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/WalkController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/WalkController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_Scenes/Arena.unity" afterPath="$PROJECT_DIR$/Assets/_Scenes/Arena.unity" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,32 +54,33 @@
       <file leaf-file-name="WalkController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WalkController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="159" column="20" lean-forward="false" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+            <state relative-caret-position="351">
+              <caret line="162" column="27" lean-forward="false" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
               <folding>
-                <marker date="1522194991594" expanded="true" signature="6:66" ph="..." />
-                <marker date="1522194991594" expanded="true" signature="112:5157" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="562:750" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="854:1927" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="860:1148" ph="/* transform.position += Camera.main.transform.forward * thrust * Time.deltaTime; ... */" />
-                <marker date="1522194991594" expanded="true" signature="1461:1872" ph="/* Debug.Log (string.Format (&quot;Projection, AccY: {0:0.000} {1:0.000}&quot;, projection, acc1)); ... */" />
-                <marker date="1522194991594" expanded="true" signature="1973:3655" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="1977:2288" ph="/* transform.position += transform.forward * thrust * Time.deltaTime * distance; ... */" />
-                <marker date="1522194991594" expanded="true" signature="2402:2683" ph="/* movement.y = 3 + distance / 5; ... */" />
-                <marker date="1522194991594" expanded="true" signature="2778:2854" ph="/* rigidbody.MovePosition(movement); ... */" />
-                <marker date="1522194991594" expanded="true" signature="2912:2988" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="3188:3430" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="3263:3426" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="3434:3652" ph="/* transform.position += Vector3.forward * thrust * Time.deltaTime * distance; ... */" />
-                <marker date="1522194991594" expanded="true" signature="3784:3818" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="3851:5155" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="4143:4351" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="4167:4263" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
-                <marker date="1522194991594" expanded="true" signature="4400:4438" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="4488:4526" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="4532:4751" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
-                <marker date="1522194991594" expanded="true" signature="4811:5120" ph="{...}" />
-                <marker date="1522194991594" expanded="true" signature="4836:4969" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
+                <marker date="1522196340323" expanded="true" signature="6:66" ph="..." />
+                <marker date="1522196340323" expanded="true" signature="112:5159" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="562:750" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="854:1927" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="860:1148" ph="/* transform.position += Camera.main.transform.forward * thrust * Time.deltaTime; ... */" />
+                <marker date="1522196340323" expanded="true" signature="1461:1872" ph="/* Debug.Log (string.Format (&quot;Projection, AccY: {0:0.000} {1:0.000}&quot;, projection, acc1)); ... */" />
+                <marker date="1522196340323" expanded="true" signature="1973:3689" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="1977:2288" ph="/* transform.position += transform.forward * thrust * Time.deltaTime * distance; ... */" />
+                <marker date="1522196340323" expanded="true" signature="2402:2648" ph="/* rigidbody.velocity = movement; ... */" />
+                <marker date="1522196340323" expanded="true" signature="2741:2817" ph="/* rigidbody.MovePosition(movement); ... */" />
+                <marker date="1522196340323" expanded="true" signature="2875:2951" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="3018:3071" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="3222:3464" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="3297:3460" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="3468:3686" ph="/* transform.position += Vector3.forward * thrust * Time.deltaTime * distance; ... */" />
+                <marker date="1522196340323" expanded="true" signature="3818:3852" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="3885:5157" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="4177:4385" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="4201:4297" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
+                <marker date="1522196340323" expanded="true" signature="4434:4456" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="4507:4525" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="4534:4753" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
+                <marker date="1522196340323" expanded="true" signature="4813:5122" ph="{...}" />
+                <marker date="1522196340323" expanded="true" signature="4838:4971" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
               </folding>
             </state>
           </provider>
@@ -280,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521744987406</updated>
-      <workItem from="1521744991767" duration="22579000" />
+      <workItem from="1521744991767" duration="23324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22579000" />
+    <option name="totallyTimeSpent" value="23324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,32 +421,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WalkController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="159" column="20" lean-forward="false" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+        <state relative-caret-position="351">
+          <caret line="162" column="27" lean-forward="false" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
           <folding>
-            <marker date="1522194991594" expanded="true" signature="6:66" ph="..." />
-            <marker date="1522194991594" expanded="true" signature="112:5157" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="562:750" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="854:1927" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="860:1148" ph="/* transform.position += Camera.main.transform.forward * thrust * Time.deltaTime; ... */" />
-            <marker date="1522194991594" expanded="true" signature="1461:1872" ph="/* Debug.Log (string.Format (&quot;Projection, AccY: {0:0.000} {1:0.000}&quot;, projection, acc1)); ... */" />
-            <marker date="1522194991594" expanded="true" signature="1973:3655" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="1977:2288" ph="/* transform.position += transform.forward * thrust * Time.deltaTime * distance; ... */" />
-            <marker date="1522194991594" expanded="true" signature="2402:2683" ph="/* movement.y = 3 + distance / 5; ... */" />
-            <marker date="1522194991594" expanded="true" signature="2778:2854" ph="/* rigidbody.MovePosition(movement); ... */" />
-            <marker date="1522194991594" expanded="true" signature="2912:2988" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="3188:3430" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="3263:3426" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="3434:3652" ph="/* transform.position += Vector3.forward * thrust * Time.deltaTime * distance; ... */" />
-            <marker date="1522194991594" expanded="true" signature="3784:3818" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="3851:5155" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="4143:4351" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="4167:4263" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
-            <marker date="1522194991594" expanded="true" signature="4400:4438" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="4488:4526" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="4532:4751" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
-            <marker date="1522194991594" expanded="true" signature="4811:5120" ph="{...}" />
-            <marker date="1522194991594" expanded="true" signature="4836:4969" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
+            <marker date="1522196340323" expanded="true" signature="6:66" ph="..." />
+            <marker date="1522196340323" expanded="true" signature="112:5159" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="562:750" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="854:1927" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="860:1148" ph="/* transform.position += Camera.main.transform.forward * thrust * Time.deltaTime; ... */" />
+            <marker date="1522196340323" expanded="true" signature="1461:1872" ph="/* Debug.Log (string.Format (&quot;Projection, AccY: {0:0.000} {1:0.000}&quot;, projection, acc1)); ... */" />
+            <marker date="1522196340323" expanded="true" signature="1973:3689" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="1977:2288" ph="/* transform.position += transform.forward * thrust * Time.deltaTime * distance; ... */" />
+            <marker date="1522196340323" expanded="true" signature="2402:2648" ph="/* rigidbody.velocity = movement; ... */" />
+            <marker date="1522196340323" expanded="true" signature="2741:2817" ph="/* rigidbody.MovePosition(movement); ... */" />
+            <marker date="1522196340323" expanded="true" signature="2875:2951" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="3018:3071" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="3222:3464" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="3297:3460" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="3468:3686" ph="/* transform.position += Vector3.forward * thrust * Time.deltaTime * distance; ... */" />
+            <marker date="1522196340323" expanded="true" signature="3818:3852" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="3885:5157" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="4177:4385" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="4201:4297" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
+            <marker date="1522196340323" expanded="true" signature="4434:4456" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="4507:4525" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="4534:4753" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
+            <marker date="1522196340323" expanded="true" signature="4813:5122" ph="{...}" />
+            <marker date="1522196340323" expanded="true" signature="4838:4971" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
           </folding>
         </state>
       </provider>

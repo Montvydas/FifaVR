@@ -80,7 +80,6 @@ public class WalkController : MonoBehaviour {
 //		Vector3 movement = transform.position + Camera.main.transform.forward * thrust * Time.deltaTime * distance;
 		
 		Vector3 movement = transform.position + Camera.main.transform.forward * thrust * Time.deltaTime * distance;
-//		movement.y = 3 + distance / 5;
 //		rigidbody.velocity = movement;
 		
 //		RaycastHit hit;
@@ -90,8 +89,6 @@ public class WalkController : MonoBehaviour {
 //		}
 		
 //		rigidbody.MovePosition(movement);
-
-
 		
 		Vector3 force = Camera.main.transform.forward * thrust * Time.deltaTime * distance;
 		
@@ -103,9 +100,13 @@ public class WalkController : MonoBehaviour {
 		{
 			force = Camera.main.transform.forward * thrust * Time.deltaTime;
 		}
-		
-		force.y = thrust * Time.deltaTime * jump;
-		
+
+		// change to IsGrounded later
+		if (transform.position.y < 3.5)
+		{
+			force.y = thrust * Time.deltaTime * jump;
+		}
+
 		rigidbody.AddForce(force);
 		
 		RaycastHit hit;
@@ -155,15 +156,15 @@ public class WalkController : MonoBehaviour {
 //			previousSystemTime = Time.time*1000f;
 		}
 		
-		if ( allGravity > 3*threshold && isRising ){
-			distance = 0.5f;
-			jump = 6;
+		if ( allGravity > 6*threshold && isRising ){
+			jump = -0.5f;
+		} 
+		
+		if ( allGravity > 6*threshold && !isRising ){
+			jump = 2;
 		}
 		
-		if ( allGravity > 3*threshold && !isRising ){
-			distance = 0.3f;
-			jump = 0;
-		} 
+
 			
 //		if (Time.time*1000f - previousSystemTime > 500.0f) {
 //			distance = 0.0f;
