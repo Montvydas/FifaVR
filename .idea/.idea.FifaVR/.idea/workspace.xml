@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b742384-19e8-415e-af5b-e128f12f766e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FifaVR/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FifaVR/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FifaVR/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FifaVR/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/WalkController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/WalkController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_Scenes/Arena.unity" afterPath="$PROJECT_DIR$/Assets/_Scenes/Arena.unity" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,52 +56,69 @@
       <file leaf-file-name="WalkController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WalkController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="336">
+              <caret line="149" column="57" lean-forward="false" selection-start-line="149" selection-start-column="57" selection-end-line="149" selection-end-column="57" />
               <folding>
-                <marker date="1522264362690" expanded="true" signature="6:66" ph="..." />
-                <marker date="1522264362690" expanded="true" signature="112:9088" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="115:207" ph="/* Used to track current acceleration towards gravity ... */" />
-                <marker date="1522264362690" expanded="true" signature="269:374" ph="/* defines the distance, if it's 0, we just stand and if 1, we move. ... */" />
-                <marker date="1522264362690" expanded="true" signature="432:740" ph="/* found point is used within the step algorithm ... */" />
-                <marker date="1522264362690" expanded="true" signature="899:1002" ph="/* This is pretty much just to be able to push and move object ... */" />
-                <marker date="1522264362690" expanded="true" signature="1037:1151" ph="/* This is used to change the direction of the player ... */" />
-                <marker date="1522264362690" expanded="true" signature="1589:1710" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="1739:1773" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="1828:3867" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="1832:2039" ph="/* CharacterController controller = GetComponent&lt;CharacterController&gt;(); ... */" />
-                <marker date="1522264362690" expanded="true" signature="2144:2538" ph="/* If we project the acc onto gravity, we can extract the motion only towards ... */" />
-                <marker date="1522264362690" expanded="true" signature="2691:3086" ph="/* To enable walking backwards we require checking heads orientation ... */" />
-                <marker date="1522264362690" expanded="true" signature="3328:3452" ph="/* we assign a threshold which is used to determine when to walk backwards ... */" />
-                <marker date="1522264362690" expanded="true" signature="3515:3804" ph="/* Debug.LogError(string.Format(&quot;gravity x={0:0.00}, y={1:0.00}, z={2:0.00}&quot;, ... */" />
-                <marker date="1522264362690" expanded="true" signature="3913:6304" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="3919:4237" ph="/* We will use a method of adding force to a rigid body here ... */" />
-                <marker date="1522264362690" expanded="true" signature="4341:4946" ph="/* If the user is looking down and is trying to walk, the camera.forward ... */" />
-                <marker date="1522264362690" expanded="true" signature="5072:5147" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="5267:5343" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="5347:5476" ph="/* change to IsGrounded later? ... */" />
-                <marker date="1522264362690" expanded="true" signature="5491:5564" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="5568:5643" ph="/* After all this is done, add the force to the object ... */" />
-                <marker date="1522264362690" expanded="true" signature="5678:5917" ph="/* This is used to keep the object certain distance above ground ... */" />
-                <marker date="1522264362690" expanded="true" signature="6035:6300" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="6109:6296" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="6346:7820" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="6638:6846" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="6662:6758" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
-                <marker date="1522264362690" expanded="true" signature="6852:7011" ph="/* If we are rising and reaching a certain big threshold, ... */" />
-                <marker date="1522264362690" expanded="true" signature="7057:7099" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="7150:7188" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="7197:7416" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
-                <marker date="1522264362690" expanded="true" signature="7476:7785" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="7501:7634" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
-                <marker date="1522264362690" expanded="true" signature="7823:7939" ph="/* Used to collect acceleration towards up axis data ... */" />
-                <marker date="1522264362690" expanded="true" signature="7979:8264" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="8001:8230" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="8106:8168" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="8268:8575" ph="/* These are various methods I tried to use to move the object ... */" />
-                <marker date="1522264362690" expanded="true" signature="8600:8728" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="8760:8912" ph="{...}" />
-                <marker date="1522264362690" expanded="true" signature="8937:9086" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="6:66" ph="..." />
+                <marker date="1522276847304" expanded="true" signature="112:9856" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="115:207" ph="/* Used to track current acceleration towards gravity ... */" />
+                <marker date="1522276847304" expanded="true" signature="269:374" ph="/* defines the distance, if it's 0, we just stand and if 1, we move. ... */" />
+                <marker date="1522276847304" expanded="true" signature="432:740" ph="/* found point is used within the step algorithm ... */" />
+                <marker date="1522276847304" expanded="true" signature="899:1002" ph="/* This is pretty much just to be able to push and move object ... */" />
+                <marker date="1522276847304" expanded="true" signature="1037:1151" ph="/* This is used to change the direction of the player ... */" />
+                <marker date="1522276847304" expanded="true" signature="1591:1712" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="1741:1775" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="1830:3999" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="1911:2039" ph="/* To have movement we require gravity vector and local acc vector ... */" />
+                <marker date="1522276847304" expanded="true" signature="2144:2538" ph="/* If we project the acc onto gravity, we can extract the motion only towards ... */" />
+                <marker date="1522276847304" expanded="true" signature="2691:3218" ph="/* To enable walking backwards we require checking heads orientation ... */" />
+                <marker date="1522276847304" expanded="true" signature="3460:3584" ph="/* we assign a threshold which is used to determine when to walk backwards ... */" />
+                <marker date="1522276847304" expanded="true" signature="3647:3936" ph="/* Debug.LogError(string.Format(&quot;gravity x={0:0.00}, y={1:0.00}, z={2:0.00}&quot;, ... */" />
+                <marker date="1522276847304" expanded="true" signature="4187:7072" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="4193:4511" ph="/* We will use a method of adding force to a rigid body here ... */" />
+                <marker date="1522276847304" expanded="true" signature="4615:5220" ph="/* If the user is looking down and is trying to walk, the camera.forward ... */" />
+                <marker date="1522276847304" expanded="true" signature="5346:5421" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="5541:6111" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="5735:6006" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="6115:6244" ph="/* change to IsGrounded later? ... */" />
+                <marker date="1522276847304" expanded="true" signature="6259:6332" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="6336:6411" ph="/* After all this is done, add the force to the object ... */" />
+                <marker date="1522276847304" expanded="true" signature="6446:6685" ph="/* This is used to keep the object certain distance above ground ... */" />
+                <marker date="1522276847304" expanded="true" signature="6803:7068" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="6877:7064" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="7114:8588" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="7406:7614" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="7430:7526" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
+                <marker date="1522276847304" expanded="true" signature="7620:7779" ph="/* If we are rising and reaching a certain big threshold, ... */" />
+                <marker date="1522276847304" expanded="true" signature="7825:7867" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="7918:7956" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="7965:8184" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
+                <marker date="1522276847304" expanded="true" signature="8244:8553" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="8269:8402" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
+                <marker date="1522276847304" expanded="true" signature="8591:8707" ph="/* Used to collect acceleration towards up axis data ... */" />
+                <marker date="1522276847304" expanded="true" signature="8747:9032" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="8769:8998" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="8874:8936" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="9036:9343" ph="/* These are various methods I tried to use to move the object ... */" />
+                <marker date="1522276847304" expanded="true" signature="9368:9496" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="9528:9680" ph="{...}" />
+                <marker date="1522276847304" expanded="true" signature="9705:9854" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceCamera.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DeviceCamera.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <marker date="1522432916786" expanded="false" signature="6:97" ph="..." />
+                <marker date="1522432916786" expanded="true" signature="141:622" ph="{...}" />
+                <marker date="1522432916786" expanded="true" signature="189:359" ph="{...}" />
+                <marker date="1522432916786" expanded="true" signature="375:381" ph="{...}" />
+                <marker date="1522432916786" expanded="true" signature="410:620" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -171,6 +190,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DE971B4A-67BB-416B-9212-C629738C2E58/f4/8e8ef08b/Vector3.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DE971B4A-67BB-416B-9212-C629738C2E58/68/efe33ba1/Time.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalkController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeviceCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DE971B4A-67BB-416B-9212-C629738C2E58/0c/b22fe414/Matrix4x4.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -184,6 +204,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WalkController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeviceCamera.cs" />
       </list>
     </option>
   </component>
@@ -236,36 +257,47 @@
               <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="GoogleVR" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="GoogleVR" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="GoogleVR" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Controller" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FifaVR (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="JetBrains" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -305,12 +337,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521744987406</updated>
-      <workItem from="1521744991767" duration="29009000" />
+      <workItem from="1521744991767" duration="33037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29009000" />
+    <option name="totallyTimeSpent" value="33037000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,20 +396,6 @@
         <state relative-caret-position="45">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <marker date="1522020933733" expanded="false" signature="6:78" ph="..." />
-            <marker date="1522020933733" expanded="true" signature="124:720" ph="{...}" />
-            <marker date="1522020933733" expanded="true" signature="220:263" ph="{...}" />
-            <marker date="1522020933733" expanded="true" signature="318:327" ph="{...}" />
-            <marker date="1522020933733" expanded="true" signature="374:718" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,54 +463,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <marker date="1522020933733" expanded="false" signature="6:78" ph="..." />
+            <marker date="1522020933733" expanded="true" signature="124:720" ph="{...}" />
+            <marker date="1522020933733" expanded="true" signature="220:263" ph="{...}" />
+            <marker date="1522020933733" expanded="true" signature="318:327" ph="{...}" />
+            <marker date="1522020933733" expanded="true" signature="374:718" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DeviceCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <marker date="1522432916786" expanded="false" signature="6:97" ph="..." />
+            <marker date="1522432916786" expanded="true" signature="141:622" ph="{...}" />
+            <marker date="1522432916786" expanded="true" signature="189:359" ph="{...}" />
+            <marker date="1522432916786" expanded="true" signature="375:381" ph="{...}" />
+            <marker date="1522432916786" expanded="true" signature="410:620" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WalkController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="336">
+          <caret line="149" column="57" lean-forward="false" selection-start-line="149" selection-start-column="57" selection-end-line="149" selection-end-column="57" />
           <folding>
-            <marker date="1522264362690" expanded="true" signature="6:66" ph="..." />
-            <marker date="1522264362690" expanded="true" signature="112:9088" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="115:207" ph="/* Used to track current acceleration towards gravity ... */" />
-            <marker date="1522264362690" expanded="true" signature="269:374" ph="/* defines the distance, if it's 0, we just stand and if 1, we move. ... */" />
-            <marker date="1522264362690" expanded="true" signature="432:740" ph="/* found point is used within the step algorithm ... */" />
-            <marker date="1522264362690" expanded="true" signature="899:1002" ph="/* This is pretty much just to be able to push and move object ... */" />
-            <marker date="1522264362690" expanded="true" signature="1037:1151" ph="/* This is used to change the direction of the player ... */" />
-            <marker date="1522264362690" expanded="true" signature="1589:1710" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="1739:1773" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="1828:3867" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="1832:2039" ph="/* CharacterController controller = GetComponent&lt;CharacterController&gt;(); ... */" />
-            <marker date="1522264362690" expanded="true" signature="2144:2538" ph="/* If we project the acc onto gravity, we can extract the motion only towards ... */" />
-            <marker date="1522264362690" expanded="true" signature="2691:3086" ph="/* To enable walking backwards we require checking heads orientation ... */" />
-            <marker date="1522264362690" expanded="true" signature="3328:3452" ph="/* we assign a threshold which is used to determine when to walk backwards ... */" />
-            <marker date="1522264362690" expanded="true" signature="3515:3804" ph="/* Debug.LogError(string.Format(&quot;gravity x={0:0.00}, y={1:0.00}, z={2:0.00}&quot;, ... */" />
-            <marker date="1522264362690" expanded="true" signature="3913:6304" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="3919:4237" ph="/* We will use a method of adding force to a rigid body here ... */" />
-            <marker date="1522264362690" expanded="true" signature="4341:4946" ph="/* If the user is looking down and is trying to walk, the camera.forward ... */" />
-            <marker date="1522264362690" expanded="true" signature="5072:5147" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="5267:5343" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="5347:5476" ph="/* change to IsGrounded later? ... */" />
-            <marker date="1522264362690" expanded="true" signature="5491:5564" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="5568:5643" ph="/* After all this is done, add the force to the object ... */" />
-            <marker date="1522264362690" expanded="true" signature="5678:5917" ph="/* This is used to keep the object certain distance above ground ... */" />
-            <marker date="1522264362690" expanded="true" signature="6035:6300" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="6109:6296" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="6346:7820" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="6638:6846" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="6662:6758" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
-            <marker date="1522264362690" expanded="true" signature="6852:7011" ph="/* If we are rising and reaching a certain big threshold, ... */" />
-            <marker date="1522264362690" expanded="true" signature="7057:7099" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="7150:7188" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="7197:7416" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
-            <marker date="1522264362690" expanded="true" signature="7476:7785" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="7501:7634" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
-            <marker date="1522264362690" expanded="true" signature="7823:7939" ph="/* Used to collect acceleration towards up axis data ... */" />
-            <marker date="1522264362690" expanded="true" signature="7979:8264" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="8001:8230" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="8106:8168" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="8268:8575" ph="/* These are various methods I tried to use to move the object ... */" />
-            <marker date="1522264362690" expanded="true" signature="8600:8728" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="8760:8912" ph="{...}" />
-            <marker date="1522264362690" expanded="true" signature="8937:9086" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="6:66" ph="..." />
+            <marker date="1522276847304" expanded="true" signature="112:9856" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="115:207" ph="/* Used to track current acceleration towards gravity ... */" />
+            <marker date="1522276847304" expanded="true" signature="269:374" ph="/* defines the distance, if it's 0, we just stand and if 1, we move. ... */" />
+            <marker date="1522276847304" expanded="true" signature="432:740" ph="/* found point is used within the step algorithm ... */" />
+            <marker date="1522276847304" expanded="true" signature="899:1002" ph="/* This is pretty much just to be able to push and move object ... */" />
+            <marker date="1522276847304" expanded="true" signature="1037:1151" ph="/* This is used to change the direction of the player ... */" />
+            <marker date="1522276847304" expanded="true" signature="1591:1712" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="1741:1775" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="1830:3999" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="1911:2039" ph="/* To have movement we require gravity vector and local acc vector ... */" />
+            <marker date="1522276847304" expanded="true" signature="2144:2538" ph="/* If we project the acc onto gravity, we can extract the motion only towards ... */" />
+            <marker date="1522276847304" expanded="true" signature="2691:3218" ph="/* To enable walking backwards we require checking heads orientation ... */" />
+            <marker date="1522276847304" expanded="true" signature="3460:3584" ph="/* we assign a threshold which is used to determine when to walk backwards ... */" />
+            <marker date="1522276847304" expanded="true" signature="3647:3936" ph="/* Debug.LogError(string.Format(&quot;gravity x={0:0.00}, y={1:0.00}, z={2:0.00}&quot;, ... */" />
+            <marker date="1522276847304" expanded="true" signature="4187:7072" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="4193:4511" ph="/* We will use a method of adding force to a rigid body here ... */" />
+            <marker date="1522276847304" expanded="true" signature="4615:5220" ph="/* If the user is looking down and is trying to walk, the camera.forward ... */" />
+            <marker date="1522276847304" expanded="true" signature="5346:5421" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="5541:6111" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="5735:6006" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="6115:6244" ph="/* change to IsGrounded later? ... */" />
+            <marker date="1522276847304" expanded="true" signature="6259:6332" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="6336:6411" ph="/* After all this is done, add the force to the object ... */" />
+            <marker date="1522276847304" expanded="true" signature="6446:6685" ph="/* This is used to keep the object certain distance above ground ... */" />
+            <marker date="1522276847304" expanded="true" signature="6803:7068" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="6877:7064" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="7114:8588" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="7406:7614" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="7430:7526" ph="/* distance += Mathf.Abs(allGravity - prevAllGravity) * freq; ... */" />
+            <marker date="1522276847304" expanded="true" signature="7620:7779" ph="/* If we are rising and reaching a certain big threshold, ... */" />
+            <marker date="1522276847304" expanded="true" signature="7825:7867" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="7918:7956" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="7965:8184" ph="/* if (Time.time*1000f - previousSystemTime &gt; 500.0f) { ... */" />
+            <marker date="1522276847304" expanded="true" signature="8244:8553" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="8269:8402" ph="/* float dT = Time.time*1000.0f - previousSystemTime; ... */" />
+            <marker date="1522276847304" expanded="true" signature="8591:8707" ph="/* Used to collect acceleration towards up axis data ... */" />
+            <marker date="1522276847304" expanded="true" signature="8747:9032" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="8769:8998" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="8874:8936" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="9036:9343" ph="/* These are various methods I tried to use to move the object ... */" />
+            <marker date="1522276847304" expanded="true" signature="9368:9496" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="9528:9680" ph="{...}" />
+            <marker date="1522276847304" expanded="true" signature="9705:9854" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -48,6 +48,7 @@ public class WalkController : MonoBehaviour {
 	private List<double> data;
 	private int count;
 	
+	
 	// Use this for initialization
 	void Start ()
 	{
@@ -65,7 +66,7 @@ public class WalkController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-//		CharacterController controller = GetComponent<CharacterController>();
+		CharacterController controller = GetComponent<CharacterController>();
 		
 		// To have movement we require gravity vector and local acc vector
 		// local acc also corresponds to world axis within the game
@@ -88,6 +89,8 @@ public class WalkController : MonoBehaviour {
 		//
 		// To differentiate from looking down and up, if user is looking down
 		// assign it to negative value and if up, then positive
+		// TODO Actually instead of gravity can simply use Camera.main.transform.forward
+		// TODO and then do projection onto Vector3.up
 		float headProjection = Vector3.Project(Vector3.forward, gravityVector).sqrMagnitude;
 		headProjection *= Vector3.Dot(Vector3.forward, gravityVector) < 0 ? -1 : 1;
 
@@ -107,6 +110,12 @@ public class WalkController : MonoBehaviour {
 		
 		StepDetectionAlgorithm();
 	}
+	
+	
+	public float speed = 6.0F;
+	public float jumpSpeed = 8.0F;
+	public float gravity = 20.0F;
+	private Vector3 moveDirection = Vector3.zero;
 	
 	//add physics in here
 	void FixedUpdate ()
@@ -141,7 +150,19 @@ public class WalkController : MonoBehaviour {
 		// Used for testing when we touch the screen or press mouse
 		if (Input.touchCount > 0 || Input.GetMouseButton(0))
 		{
-			force = Camera.main.transform.forward * thrust * Time.deltaTime;
+//			force = Camera.main.transform.forward * thrust * Time.deltaTime * direction;
+			
+			CharacterController controller = GetComponent<CharacterController>();
+			if (controller.isGrounded) {
+				moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+				moveDirection = transform.TransformDirection(moveDirection);
+				moveDirection *= speed;
+				if (Input.GetButton("Jump"))
+					moveDirection.y = jumpSpeed;
+            
+			}
+			moveDirection.y -= gravity * Time.deltaTime;
+			controller.Move(moveDirection * Time.deltaTime);	
 		}
 
 		// change to IsGrounded later?

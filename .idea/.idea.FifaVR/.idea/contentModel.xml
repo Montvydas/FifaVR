@@ -238,6 +238,7 @@
         <e p="Scripts" t="Include">
           <e p="BallController.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
+          <e p="DeviceCamera.cs" t="Include" />
           <e p="RobotController.cs" t="Include" />
           <e p="WalkController.cs" t="Include" />
         </e>
